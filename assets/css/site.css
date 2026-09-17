@@ -11,3 +11,10 @@
 .check-card:nth-child(1){background:var(--sage)}.check-card:nth-child(2){background:#fff0c9}.check-card:nth-child(3){background:var(--sky)}.check-card:nth-child(4){background:var(--peach)}
 .check-card h3{margin:.35rem 0}.check-card p{font-size:.96rem;margin-bottom:0}
 @media(max-width:720px){.capacity-visual{min-height:250px!important;padding:18px!important}.capacity-card{padding:22px}.capacity-flow{font-size:2rem}.check-grid{grid-template-columns:1fr}.capacity-mobile .panel{padding:17px}}
+
+/* Capacity guide hero containment fix */
+.capacity-visual{font-size:1rem!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.capacity-card{box-sizing:border-box;min-width:0;max-width:100%;overflow:hidden}
+.capacity-card h2,.capacity-card p,.capacity-card strong{overflow-wrap:normal;word-break:normal}
+@media(max-width:850px){.article-hero .capacity-visual{width:100%;min-height:0!important;padding:18px!important}.article-hero .capacity-card{width:100%;max-width:520px;margin:0 auto;padding:22px}.capacity-flow{flex-wrap:nowrap;white-space:nowrap}}
+@media(max-width:620px){.article-hero .capacity-visual{padding:14px!important}.article-hero .capacity-card{padding:20px 16px}.capacity-flow{font-size:1.8rem;gap:10px}.capacity-card p{font-size:.94rem;line-height:1.5}}

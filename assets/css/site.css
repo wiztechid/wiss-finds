@@ -35,3 +35,18 @@
 @media(min-width:851px){.capacity-card{transform:none}.article-hero>.capacity-visual{align-self:stretch}}
 @media(max-width:850px){.article-layout{gap:28px}.sidebar{margin-top:8px}}
 @media(max-width:620px){.article-copy h2{font-size:1.65rem;line-height:1.24;margin-top:1.65em}.quick,.toc,.note,.summary,.sourcebox{border-radius:18px}.summary{padding:20px}.capacity-decision{padding:19px}.byline{row-gap:7px}}
+
+/* Article 2 tablet polish */
+@media (min-width:621px) and (max-width:1000px){
+  .article-hero{grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr);gap:34px;align-items:center}
+  .article-hero h1{font-size:clamp(2.7rem,5.1vw,3.65rem);line-height:1.03}
+  .article-layout{grid-template-columns:minmax(0,1fr) 230px;gap:34px}
+  .article-copy{font-size:1.08rem;line-height:1.8}
+  .sidebar{position:sticky;top:92px;display:block;margin-top:0}
+  .quick-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .quick-grid div{padding:13px;font-size:.91rem}
+}
+@media (min-width:851px) and (max-width:1000px){
+  .capacity-visual{min-height:300px!important;padding:22px!important}
+  .capacity-card{padding:24px;width:min(100%,340px)}
+}

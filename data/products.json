@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-17",
+  "products": [
+    {
+      "id": "WP-DEMO-01",
+      "status": "draft",
+      "category": "active",
+      "name": "Walking Pad A",
+      "character": "compact",
+      "affiliate_url": null,
+      "source_url": null,
+      "price": null,
+      "max_load_kg": null,
+      "belt_width_cm": null,
+      "belt_length_cm": null,
+      "max_speed_kmh": null,
+      "warranty": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "WP-DEMO-02",
+      "status": "draft",
+      "category": "active",
+      "name": "Walking Pad B",
+      "character": "balanced",
+      "affiliate_url": null,
+      "source_url": null,
+      "price": null,
+      "max_load_kg": null,
+      "belt_width_cm": null,
+      "belt_length_cm": null,
+      "max_speed_kmh": null,
+      "warranty": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "WP-DEMO-03",
+      "status": "draft",
+      "category": "active",
+      "name": "Walking Pad C",
+      "character": "roomy",
+      "affiliate_url": null,
+      "source_url": null,
+      "price": null,
+      "max_load_kg": null,
+      "belt_width_cm": null,
+      "belt_length_cm": null,
+      "max_speed_kmh": null,
+      "warranty": null,
+      "last_verified_at": null
+    }
+  ]
+}

@@ -79,3 +79,9 @@
 
 /* Article 4 affiliate examples */
 .affiliate-examples{margin:30px 0}.affiliate-head{margin-bottom:14px}.affiliate-head>span{font-size:.76rem;font-weight:900;letter-spacing:.1em;color:var(--accent)}.affiliate-head h3{font-size:1.3rem;margin:5px 0}.affiliate-head p{margin:0;color:var(--muted);font-size:.95rem}.affiliate-example-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.affiliate-example{background:#fff;border:1px solid var(--line);border-radius:21px;padding:20px}.affiliate-example:nth-child(1){background:linear-gradient(145deg,#fff,var(--sage))}.affiliate-example:nth-child(2){background:linear-gradient(145deg,#fff,#fff1c9)}.watt-pill{display:inline-block;background:var(--ink);color:#fff;border-radius:999px;padding:5px 10px;font-size:.8rem;font-weight:900}.affiliate-example h3{margin:12px 0 7px;font-size:1.08rem}.affiliate-example p{font-size:.93rem;line-height:1.58}.affiliate-cta{display:inline-flex;min-height:44px;align-items:center;background:var(--ink);color:#fff!important;border-radius:12px;padding:10px 13px;text-decoration:none;font-weight:850;font-size:.91rem}.affiliate-note{font-size:.82rem!important;line-height:1.5!important;color:var(--muted)!important;margin:12px 3px 0!important}@media(max-width:620px){.affiliate-example-grid{grid-template-columns:1fr}.affiliate-example{padding:18px}}
+
+/* Article 4 hero image QC */
+.power-visual{padding:0!important;min-height:0!important;background:none!important;border-radius:28px;overflow:hidden!important;display:block!important;aspect-ratio:1200/676}
+.power-visual>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit}
+@media(max-width:850px){.power-visual{padding:0!important;aspect-ratio:1200/676}}
+@media(max-width:620px){.power-visual{padding:0!important;border-radius:20px}}

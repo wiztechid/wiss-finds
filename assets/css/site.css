@@ -119,3 +119,14 @@
 
 /* Hero image integrity: never crop editorial banners */
 .pillar-hero .article-art>img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;border-radius:inherit!important}
+
+/* Article 03 product examples — editorial cards */
+.product-example{margin:22px 0;padding:24px 26px;background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 12px 32px #20332b0a}
+.product-example h3{display:flex;align-items:center;gap:12px;margin:0 0 12px;font-family:Inter,system-ui,sans-serif;font-size:1.08rem;line-height:1.35;color:var(--ink)}
+.product-example p{margin:0 0 18px}
+.product-size{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-width:58px;padding:7px 10px;border-radius:999px;background:var(--sun);font-size:.78rem;font-weight:900;letter-spacing:.02em}
+.product-action{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:16px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.product-action>span{font-size:.78rem;font-weight:800;color:var(--muted)}
+.product-action>a{display:inline-flex;align-items:center;gap:9px;padding:11px 16px;border-radius:14px;background:var(--ink);color:#fff!important;text-decoration:none!important;font-size:.88rem;font-weight:850;box-shadow:0 8px 20px #20332b18;transition:transform .18s ease,box-shadow .18s ease}
+.product-action>a:hover{transform:translateY(-1px);box-shadow:0 11px 24px #20332b24}.product-action>a b{font-size:1.05rem}
+@media(max-width:620px){.product-example{padding:19px 18px;border-radius:20px}.product-example h3{align-items:flex-start;flex-direction:column;gap:8px}.product-action{align-items:flex-start;flex-direction:column}.product-action>a{width:100%;justify-content:space-between;padding:12px 14px}}

@@ -85,3 +85,12 @@
 .power-visual>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:inherit}
 @media(max-width:850px){.power-visual{padding:0!important;aspect-ratio:1200/676}}
 @media(max-width:620px){.power-visual{padding:0!important;border-radius:20px}}
+
+/* Article 4 hero image tablet QC: show full editorial artwork */
+.power-visual>img{object-fit:contain!important;object-position:center!important;background:#fffaf0}
+@media (min-width:621px) and (max-width:1100px){
+  .power-hero{grid-template-columns:minmax(0,1fr)!important;gap:24px!important}
+  .power-hero>div:first-child{max-width:820px}
+  .power-visual{width:100%;aspect-ratio:1200/676!important;border-radius:24px!important}
+  .power-visual>img{width:100%!important;height:100%!important;object-fit:contain!important}
+}

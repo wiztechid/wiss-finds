@@ -115,3 +115,7 @@
  .pillar-hero .hero-img{display:block!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important;object-position:center!important;border-radius:inherit!important}
 }
 @media(max-width:620px){.pillar-hero{gap:18px!important}.pillar-hero .article-art{border-radius:18px!important}}
+
+
+/* Hero image integrity: never crop editorial banners */
+.pillar-hero .article-art>img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;border-radius:inherit!important}

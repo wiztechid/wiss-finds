@@ -107,3 +107,11 @@
   .power-hero{gap:18px!important}
   .power-visual{border-radius:18px!important}
 }
+
+/* WISS article hero standard: full-width editorial banner on tablet/mobile */
+@media (max-width:1100px){
+ .pillar-hero{display:grid!important;grid-template-columns:1fr!important;gap:22px!important}
+ .pillar-hero .article-art{width:100%!important;height:auto!important;min-height:0!important;padding:0!important;background:transparent!important;display:block!important;overflow:hidden!important;border-radius:24px!important}
+ .pillar-hero .hero-img{display:block!important;width:100%!important;height:auto!important;max-width:100%!important;object-fit:contain!important;object-position:center!important;border-radius:inherit!important}
+}
+@media(max-width:620px){.pillar-hero{gap:18px!important}.pillar-hero .article-art{border-radius:18px!important}}

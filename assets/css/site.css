@@ -94,3 +94,17 @@
   .power-visual{width:100%;aspect-ratio:1200/676!important;border-radius:24px!important}
   .power-visual>img{width:100%!important;height:100%!important;object-fit:contain!important}
 }
+
+/* Article 04 final responsive hero override */
+.power-hero{align-items:center}
+.power-visual{padding:0!important;background:transparent!important;overflow:hidden!important;min-height:0!important}
+.power-visual>img{display:block!important;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;border-radius:inherit}
+@media (max-width:1100px){
+ .power-hero{display:grid!important;grid-template-columns:1fr!important;gap:22px!important}
+ .power-hero>div:first-child{max-width:none!important}
+ .power-visual{width:100%!important;height:auto!important;aspect-ratio:auto!important;border-radius:24px!important}
+}
+@media (max-width:620px){
+ .power-hero{gap:18px!important}
+ .power-visual{border-radius:18px!important}
+}
